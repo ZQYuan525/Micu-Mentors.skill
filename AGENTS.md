@@ -22,9 +22,10 @@
 
 ```
 🧠 头脑层（西风/左岚二选一安装）
-    → 通过能力域路由调用手脚Skill
-🦾 手脚层（已安装的各类Skill）
-    → trellis/keil/gcc/jlink/openocd/serial/can/embedded-review等
+    → 通过能力域路由调用可用的手脚Skill
+🦾 手脚层（可选增强，非必须）
+    → 如已安装 trellis/keil/gcc/jlink 等则自动调用
+    → 未安装则降级为手动指导，不影响人格正常工作
 ```
 
 ---
