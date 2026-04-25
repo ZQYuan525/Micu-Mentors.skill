@@ -33,6 +33,10 @@ npx skills add ZQYuan525/Micu-Mentors.skill -g -a claude-code codex
 
 **一句话：装了Skill是自动驾驶，没装是副驾陪你开，都能到终点。**
 
+## Codex 集成
+
+Codex 用户见 `docs/Codex集成指南.md`，通过项目内 AGENTS.md 配置即可用关键词触发人格。
+
 ## 结构
 
 ```
@@ -40,6 +44,8 @@ Micu-Mentors.skill/
 ├── skills/
 │   ├── 赛博西风/SKILL.md    # 严父人格（792行）
 │   └── 赛博左岚/SKILL.md    # 慈母人格（885行）
-├── AGENTS.md                # 双平台共享入口
-└── README.md                # 本文件
+├── docs/
+│   └── Codex集成指南.md      # Codex用户配置说明
+├── README.md                # 本文件
+└── .gitignore
 ```
