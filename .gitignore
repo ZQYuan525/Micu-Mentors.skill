@@ -1,0 +1,10 @@
+# 系统文件
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+
+# 开发相关
+node_modules/
+.trellis/
+.embeddedskills/
