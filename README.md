@@ -27,7 +27,11 @@ npx skills add ZQYuan525/Micu-Mentors.skill -g -a claude-code codex
 
 ## 工作原理
 
-两人格是**头脑层**，通过低耦合手脚接口调用已安装的Skill（keil/gcc/jlink/openocd/serial/can等）执行实际任务。没装对应Skill则降级为手动指导，永不卡死。
+两人格是**头脑层**，他们本身就能独立工作——诊断问题、给出思路、指导操作。
+
+如果你额外安装了嵌入式相关 Skill（如 keil/gcc/jlink 等），两人格会自动识别并调用它们来帮你自动执行编译、烧录、调试等操作。没装的话也不影响——他们照样能指导你手动完成，只是多费点口舌而已。
+
+**一句话：装了Skill是自动驾驶，没装是副驾陪你开，都能到终点。**
 
 ## 结构
 
